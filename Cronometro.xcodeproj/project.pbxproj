@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1596DB21CFAD26C00DC95BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1596DB11CFAD26C00DC95BC /* AppDelegate.swift */; };
+		E1596DB41CFAD26C00DC95BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1596DB31CFAD26C00DC95BC /* ViewController.swift */; };
+		E1596DB71CFAD26C00DC95BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1596DB51CFAD26C00DC95BC /* Main.storyboard */; };
+		E1596DB91CFAD26C00DC95BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1596DB81CFAD26C00DC95BC /* Assets.xcassets */; };
+		E1596DBC1CFAD26C00DC95BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1596DBA1CFAD26C00DC95BC /* LaunchScreen.storyboard */; };
+		E1596DC71CFAD26C00DC95BC /* CronometroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1596DC61CFAD26C00DC95BC /* CronometroTests.swift */; };
+		E1596DD21CFAD26C00DC95BC /* CronometroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1596DD11CFAD26C00DC95BC /* CronometroUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1596DC31CFAD26C00DC95BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1596DA61CFAD26C00DC95BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1596DAD1CFAD26C00DC95BC;
+			remoteInfo = Cronometro;
+		};
+		E1596DCE1CFAD26C00DC95BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1596DA61CFAD26C00DC95BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1596DAD1CFAD26C00DC95BC;
+			remoteInfo = Cronometro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1596DAE1CFAD26C00DC95BC /* Cronometro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cronometro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1596DB11CFAD26C00DC95BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1596DB31CFAD26C00DC95BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1596DB61CFAD26C00DC95BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1596DB81CFAD26C00DC95BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1596DBB1CFAD26C00DC95BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1596DBD1CFAD26C00DC95BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1596DC21CFAD26C00DC95BC /* CronometroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CronometroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1596DC61CFAD26C00DC95BC /* CronometroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronometroTests.swift; sourceTree = "<group>"; };
+		E1596DC81CFAD26C00DC95BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1596DCD1CFAD26C00DC95BC /* CronometroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CronometroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1596DD11CFAD26C00DC95BC /* CronometroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronometroUITests.swift; sourceTree = "<group>"; };
+		E1596DD31CFAD26C00DC95BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1596DAB1CFAD26C00DC95BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1596DBF1CFAD26C00DC95BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1596DCA1CFAD26C00DC95BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1596DA51CFAD26C00DC95BC = {
+			isa = PBXGroup;
+			children = (
+				E1596DB01CFAD26C00DC95BC /* Cronometro */,
+				E1596DC51CFAD26C00DC95BC /* CronometroTests */,
+				E1596DD01CFAD26C00DC95BC /* CronometroUITests */,
+				E1596DAF1CFAD26C00DC95BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1596DAF1CFAD26C00DC95BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1596DAE1CFAD26C00DC95BC /* Cronometro.app */,
+				E1596DC21CFAD26C00DC95BC /* CronometroTests.xctest */,
+				E1596DCD1CFAD26C00DC95BC /* CronometroUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1596DB01CFAD26C00DC95BC /* Cronometro */ = {
+			isa = PBXGroup;
+			children = (
+				E1596DB11CFAD26C00DC95BC /* AppDelegate.swift */,
+				E1596DB31CFAD26C00DC95BC /* ViewController.swift */,
+				E1596DB51CFAD26C00DC95BC /* Main.storyboard */,
+				E1596DB81CFAD26C00DC95BC /* Assets.xcassets */,
+				E1596DBA1CFAD26C00DC95BC /* LaunchScreen.storyboard */,
+				E1596DBD1CFAD26C00DC95BC /* Info.plist */,
+			);
+			path = Cronometro;
+			sourceTree = "<group>";
+		};
+		E1596DC51CFAD26C00DC95BC /* CronometroTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1596DC61CFAD26C00DC95BC /* CronometroTests.swift */,
+				E1596DC81CFAD26C00DC95BC /* Info.plist */,
+			);
+			path = CronometroTests;
+			sourceTree = "<group>";
+		};
+		E1596DD01CFAD26C00DC95BC /* CronometroUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1596DD11CFAD26C00DC95BC /* CronometroUITests.swift */,
+				E1596DD31CFAD26C00DC95BC /* Info.plist */,
+			);
+			path = CronometroUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1596DAD1CFAD26C00DC95BC /* Cronometro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1596DD61CFAD26C00DC95BC /* Build configuration list for PBXNativeTarget "Cronometro" */;
+			buildPhases = (
+				E1596DAA1CFAD26C00DC95BC /* Sources */,
+				E1596DAB1CFAD26C00DC95BC /* Frameworks */,
+				E1596DAC1CFAD26C00DC95BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cronometro;
+			productName = Cronometro;
+			productReference = E1596DAE1CFAD26C00DC95BC /* Cronometro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1596DC11CFAD26C00DC95BC /* CronometroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1596DD91CFAD26C00DC95BC /* Build configuration list for PBXNativeTarget "CronometroTests" */;
+			buildPhases = (
+				E1596DBE1CFAD26C00DC95BC /* Sources */,
+				E1596DBF1CFAD26C00DC95BC /* Frameworks */,
+				E1596DC01CFAD26C00DC95BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1596DC41CFAD26C00DC95BC /* PBXTargetDependency */,
+			);
+			name = CronometroTests;
+			productName = CronometroTests;
+			productReference = E1596DC21CFAD26C00DC95BC /* CronometroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1596DCC1CFAD26C00DC95BC /* CronometroUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1596DDC1CFAD26C00DC95BC /* Build configuration list for PBXNativeTarget "CronometroUITests" */;
+			buildPhases = (
+				E1596DC91CFAD26C00DC95BC /* Sources */,
+				E1596DCA1CFAD26C00DC95BC /* Frameworks */,
+				E1596DCB1CFAD26C00DC95BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1596DCF1CFAD26C00DC95BC /* PBXTargetDependency */,
+			);
+			name = CronometroUITests;
+			productName = CronometroUITests;
+			productReference = E1596DCD1CFAD26C00DC95BC /* CronometroUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1596DA61CFAD26C00DC95BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = iXavy;
+				TargetAttributes = {
+					E1596DAD1CFAD26C00DC95BC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E1596DC11CFAD26C00DC95BC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E1596DAD1CFAD26C00DC95BC;
+					};
+					E1596DCC1CFAD26C00DC95BC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E1596DAD1CFAD26C00DC95BC;
+					};
+				};
+			};
+			buildConfigurationList = E1596DA91CFAD26C00DC95BC /* Build configuration list for PBXProject "Cronometro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1596DA51CFAD26C00DC95BC;
+			productRefGroup = E1596DAF1CFAD26C00DC95BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1596DAD1CFAD26C00DC95BC /* Cronometro */,
+				E1596DC11CFAD26C00DC95BC /* CronometroTests */,
+				E1596DCC1CFAD26C00DC95BC /* CronometroUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1596DAC1CFAD26C00DC95BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1596DBC1CFAD26C00DC95BC /* LaunchScreen.storyboard in Resources */,
+				E1596DB91CFAD26C00DC95BC /* Assets.xcassets in Resources */,
+				E1596DB71CFAD26C00DC95BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1596DC01CFAD26C00DC95BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1596DCB1CFAD26C00DC95BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1596DAA1CFAD26C00DC95BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1596DB41CFAD26C00DC95BC /* ViewController.swift in Sources */,
+				E1596DB21CFAD26C00DC95BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1596DBE1CFAD26C00DC95BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1596DC71CFAD26C00DC95BC /* CronometroTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1596DC91CFAD26C00DC95BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1596DD21CFAD26C00DC95BC /* CronometroUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1596DC41CFAD26C00DC95BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1596DAD1CFAD26C00DC95BC /* Cronometro */;
+			targetProxy = E1596DC31CFAD26C00DC95BC /* PBXContainerItemProxy */;
+		};
+		E1596DCF1CFAD26C00DC95BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1596DAD1CFAD26C00DC95BC /* Cronometro */;
+			targetProxy = E1596DCE1CFAD26C00DC95BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1596DB51CFAD26C00DC95BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1596DB61CFAD26C00DC95BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1596DBA1CFAD26C00DC95BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1596DBB1CFAD26C00DC95BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1596DD41CFAD26C00DC95BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1596DD51CFAD26C00DC95BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1596DD71CFAD26C00DC95BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cronometro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ixavy.Cronometro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E1596DD81CFAD26C00DC95BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cronometro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ixavy.Cronometro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E1596DDA1CFAD26C00DC95BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CronometroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ixavy.CronometroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cronometro.app/Cronometro";
+			};
+			name = Debug;
+		};
+		E1596DDB1CFAD26C00DC95BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CronometroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ixavy.CronometroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cronometro.app/Cronometro";
+			};
+			name = Release;
+		};
+		E1596DDD1CFAD26C00DC95BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CronometroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ixavy.CronometroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cronometro;
+			};
+			name = Debug;
+		};
+		E1596DDE1CFAD26C00DC95BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CronometroUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ixavy.CronometroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cronometro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1596DA91CFAD26C00DC95BC /* Build configuration list for PBXProject "Cronometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1596DD41CFAD26C00DC95BC /* Debug */,
+				E1596DD51CFAD26C00DC95BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1596DD61CFAD26C00DC95BC /* Build configuration list for PBXNativeTarget "Cronometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1596DD71CFAD26C00DC95BC /* Debug */,
+				E1596DD81CFAD26C00DC95BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1596DD91CFAD26C00DC95BC /* Build configuration list for PBXNativeTarget "CronometroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1596DDA1CFAD26C00DC95BC /* Debug */,
+				E1596DDB1CFAD26C00DC95BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E1596DDC1CFAD26C00DC95BC /* Build configuration list for PBXNativeTarget "CronometroUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1596DDD1CFAD26C00DC95BC /* Debug */,
+				E1596DDE1CFAD26C00DC95BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1596DA61CFAD26C00DC95BC /* Project object */;
+}
