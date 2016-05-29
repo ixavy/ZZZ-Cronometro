@@ -14,6 +14,7 @@
 		E1596DBC1CFAD26C00DC95BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1596DBA1CFAD26C00DC95BC /* LaunchScreen.storyboard */; };
 		E1596DC71CFAD26C00DC95BC /* CronometroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1596DC61CFAD26C00DC95BC /* CronometroTests.swift */; };
 		E1596DD21CFAD26C00DC95BC /* CronometroUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1596DD11CFAD26C00DC95BC /* CronometroUITests.swift */; };
+		E1596DE01CFAFC9C00DC95BC /* cronometro.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E1596DDF1CFAFC9C00DC95BC /* cronometro.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E1596DCD1CFAD26C00DC95BC /* CronometroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CronometroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1596DD11CFAD26C00DC95BC /* CronometroUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CronometroUITests.swift; sourceTree = "<group>"; };
 		E1596DD31CFAD26C00DC95BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1596DDF1CFAFC9C00DC95BC /* cronometro.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cronometro.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				E1596DB11CFAD26C00DC95BC /* AppDelegate.swift */,
 				E1596DB31CFAD26C00DC95BC /* ViewController.swift */,
 				E1596DB51CFAD26C00DC95BC /* Main.storyboard */,
+				E1596DDF1CFAFC9C00DC95BC /* cronometro.jpeg */,
 				E1596DB81CFAD26C00DC95BC /* Assets.xcassets */,
 				E1596DBA1CFAD26C00DC95BC /* LaunchScreen.storyboard */,
 				E1596DBD1CFAD26C00DC95BC /* Info.plist */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					E1596DAD1CFAD26C00DC95BC = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = P3MD9SF5SW;
 					};
 					E1596DC11CFAD26C00DC95BC = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -232,6 +236,7 @@
 				E1596DBC1CFAD26C00DC95BC /* LaunchScreen.storyboard in Resources */,
 				E1596DB91CFAD26C00DC95BC /* Assets.xcassets in Resources */,
 				E1596DB71CFAD26C00DC95BC /* Main.storyboard in Resources */,
+				E1596DE01CFAFC9C00DC95BC /* cronometro.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +406,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Cronometro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ixavy.Cronometro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -412,10 +420,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Cronometro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ixavy.Cronometro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
