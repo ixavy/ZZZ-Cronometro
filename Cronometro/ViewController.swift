@@ -16,9 +16,17 @@ class ViewController: UIViewController {
     
     var runing:Bool = false
     
+    var pauseButton = UIBarButtonItem()
+    var playButton = UIBarButtonItem()
+    var arrayOfButtons = [UIBarButtonItem]()
+    
+    
+    @IBOutlet weak var toolbar: UIToolbar!
+    
     @IBOutlet weak var time: UILabel!
     
     @IBAction func stop(sender: AnyObject) {
+        self.buttonPressed(playButton)
         runing = false
         timer.invalidate()
         count = 0
@@ -27,25 +35,35 @@ class ViewController: UIViewController {
     
     @IBAction func play(sender: AnyObject) {
         if runing {
+            self.buttonPressed(playButton)
             runing = false
             timer.invalidate()
         } else {
+            self.buttonPressed(pauseButton)
             runing = true
             timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: #selector(ViewController.autoTime), userInfo: nil, repeats: true)
         }
     }
+ 
+    func buttonPressed(buttonInsert:UIBarButtonItem) {
+        arrayOfButtons.removeLast()
+        arrayOfButtons.insert(buttonInsert, atIndex: arrayOfButtons.count )
+        self.toolbar.setItems(arrayOfButtons, animated: false)
+    }
     
     func autoTime() {
-        
         count += 1
-        
         time.text = "\(count)"
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-               // Do any additional setup after loading the view, typically from a nib.
+        pauseButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Pause, target: self, action: #selector(ViewController.play))
+        
+        playButton = UIBarButtonItem(barButtonSystemItem: UIBarButtonSystemItem.Play, target: self, action: #selector(ViewController.play))
+        
+        arrayOfButtons = self.toolbar.items!
     }
 
     override func didReceiveMemoryWarning() {
