@@ -41,8 +41,8 @@
                                 </items>
                             </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPT-8G-KWG">
-                                <rect key="frame" x="196" y="221" width="209" height="158"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="80"/>
+                                <rect key="frame" x="111" y="142" width="378" height="316"/>
+                                <fontDescription key="fontDescription" name="AppleColorEmoji" family="Apple Color Emoji" pointSize="137"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -61,11 +61,12 @@
                     </view>
                     <connections>
                         <outlet property="time" destination="VPT-8G-KWG" id="UHl-5t-F2t"/>
+                        <outlet property="toolbar" destination="eaf-La-ViN" id="gMC-vF-YhL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="429"/>
+            <point key="canvasLocation" x="557" y="379"/>
         </scene>
     </scenes>
 </document>
